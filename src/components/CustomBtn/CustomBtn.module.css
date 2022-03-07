@@ -1,0 +1,59 @@
+.btn {
+    /* width: 291px; */
+    border-radius: 0px;
+    padding: 10px;
+    text-align: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    border: 1px solid #BC8462;
+    color: rgba(0, 0, 0, .8);
+    transition: .3s ease;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: unset;
+    /* margin: 50px; */
+}
+
+.btn::after {
+    content: "";
+    position: absolute;
+    inset: 4px -5px 5px 4px;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #000;
+}
+
+.btnEntry:hover, .btn {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+/* Кнопка Записаться */
+.btnEntry {
+    /* width: 291px; */
+    border-radius: 0px;
+    padding: 10px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.5);
+    border: none;
+    cursor: pointer;
+    position: relative;
+    border: 1px solid #BC8462;
+    color: #000;
+    transition: .3s ease;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: unset;
+}
+.btnEntry::before {
+    content: "";
+    position: absolute;
+    inset: -3px 3px 3px -4px;
+    width: 100%;
+    height: 100%;
+    background: #BC8462;
+    border: 1px solid #BC8462;
+    display: block;
+    z-index: -1;
+}

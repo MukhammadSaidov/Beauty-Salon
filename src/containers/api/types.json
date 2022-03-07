@@ -1,0 +1,32 @@
+[
+    {
+        "type":"color",
+        "img":"/main/hair-shape.svg",
+        "text":"Тонирование и окрашивание"
+    },
+    {
+        "type":"make-up",
+        "img":"/main/spray.svg",
+        "text":"Make-up"
+    },
+    {
+        "type":"hairdryer",
+        "img":"/main/hairdryer.svg",
+        "text":"Визаж"
+    },
+    {
+        "type":"nails",
+        "img":"/main/long-hair.svg",
+        "text":"Ногтевой сервис"
+    },
+    {
+        "type":"laminating",
+        "img":"/main/curled-hair.svg",
+        "text":"Ламинирование ресниц"
+    },
+    {
+        "type":"kerotin",
+        "img":"/main/woman-hair.svg",
+        "text":"Керотин"
+    }
+]
